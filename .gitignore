@@ -2,6 +2,9 @@ _site/
 node_modules/
 package-lock.json
 
+## Microsoft Word lock/temp files
+~$*
+
 ## Covers VSCode
 .vscode/*
 !.vscode/settings.json
