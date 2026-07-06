@@ -1,16 +1,19 @@
 language: node_js
+os: linux
+dist: focal
 node_js:
-  - 12
+  - 22
 before_script:
   - npm install @11ty/eleventy -g
 script: eleventy --pathprefix="/"
 deploy:
-  fqdn: coreydmccarty.dev
-  local-dir: _site
-  target_branch: master
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
-  keep-history: true
+  strategy: git
+  fqdn: coreydmccarty.dev
+  local_dir: _site
+  target_branch: master
+  cleanup: false
+  token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep_history: true
   on:
     branch: development
