@@ -8,62 +8,61 @@ navtitle: Resume
 templateClass: tmpl-resume
 ---
 
-I am a senior engineer with experience as technical lead for 2 engineers. I enjoy leading and developing engineers in and outside work.
+Staff-level engineer with twelve years owning production systems a business can't run without. I stay close to the code while setting technical direction, and I grow the engineers around me instead of staying the only one who understands how something works.
 
 ##  Experience
 
-### Staff Software Engineer - Summit Professional Education
+### Lead Developer - Summit Professional Education
 Dec 2021 - Present
 
-+ Increase sales through data and tooling improvements
-+ Migrate legacy JSP website to Vue front-end with Springboot back-end
-+ Reduce page load time by 7 minutes through data refactor
-+ Improve Customer Service, Marketing, and Sales response times with automation and improved tooling with Vue, Python, and SQL
-+ Minimize downtime ovesight of application deployments and scaling through AWS services (EC2, Elastic Beanstalk, Lambds, SQS, API Gateway)
-+ Oversee software development team and manage growth of specific front/back end developers into the full stack
-+ Improve interdepartmental workflows and understanding through honest discussion of possibilities and improvements
+*Senior-most engineer and technical owner for a platform serving 528K accounts and 3.5M+ enrollments (Staff Engineer / Engineering Lead scope).*
 
-### Senior Software Engineer - Juice Plus
-June 2020 - Dec 2021
++ Stopped being the team's bottleneck and became its safety net, handing off clean problem definitions so three of five engineers run their own domains, the website, the Yeti platform, and the deployment pipelines, end to end, while I own every code review and pull request.
++ Served as the sole technical partner to a non-technical CTO after a 2024 leadership change, translating system realities into decisions he could act on.
++ Cut a customer-facing B2B account page from roughly ten minutes to under a minute with a relation-table redesign; the sales team had refused to demo it and now uses it live to close contracts.
++ Grew a bootcamp-trained frontend developer into a full-stack contributor who now owns the deployment pipeline for the main website and its API, with direct releases to both test and production.
++ Set direction for the migration off a legacy Universe/Pick data-entry system, pulled a floundering offshore team off the work, and coached the engineer who shipped the first module on a new Vue 3 frontend writing directly to Aurora.
++ Coached an engineer through a nine-month Vue 2 to Vue 3 migration by asking the right questions and letting him make the architectural calls, including adopting ShadCN so the team owns its component library long-term.
++ Recovered organic search from roughly 30th to a consistent top 10 after a disruptive top-down SSR rollout, clearing around 300 server errors and 600-plus Core Web Vitals issues.
++ Rescued a board-mandated CMS migration left without a plan when its owner departed, shipping static HubSpot pages alongside the existing Nuxt application with no visible seam to users.
++ Built a structured, on-demand skill system the dev team uses with their AI assistants, adding per-developer profiles, a PR-review workflow, and an app-wiring map of how the repositories connect, so cross-system knowledge lives in the repo instead of only in my head.
 
-+ Design and architect new generation of data systems
-+ Streamline data access of all company databases through unified api using Typescript, Prisma, and Hapi
-+ Expedite incident mitigation through streamlined information gathering process
-+ Support and development of data syncronization tool between Pick multivalue database and Microsoft SQL Server
+### Software Engineer - Juice Plus
+Jun 2020 - Dec 2021
 
-### Software Engineer - Atos|Syntel
-September 2014 - May 2020
++ Took sole ownership of an undocumented, business-critical Java ETL and reverse-engineered it from the code to become the team's subject-matter expert.
++ Prototyped a bridging API unifying five disparate databases behind a single business-entity interface using Hapi, TypeScript, and Prisma, learning the full stack from scratch to build it.
++ Evaluated Go for the next-generation platform and recommended against adoption despite its technical fit, citing the org-wide rollover cost for an all-Java team.
++ Worked alongside the company's most tenured engineers on next-generation architecture and OpenAPI design after an incoming director routed proof-of-concept work my way.
 
-+ Streamline DevOps processes for team's 16 applications with GitLab and Jenkins.
-+ Drive efficiency and standards evolution in both code and process for betterment of product, team, and self with daily meeting time reduction by half.
-+ Improve code quality and understanding through standardization of code style.
-+ Reduce code base size by 5% through DRY principles and standard patterns.
-+ Identify opportunities to expedite team processes through automation of repeated efforts.
-+ Improve developer experience and testability through modernization with Gradle, SpringBoot, Splunk, and App Dynamics
-+ Analyze team activities from code base and data extracts with Bash and Python allowing owners visibility into their data.
-+ Manage 30TB of databases' design to reduce storage footprint and query times while maximizing uptime in order to stop timeout issues and contention blockages that previously halted flow of business activities.
+### Software Engineer - Atos / Syntel (client: FedEx)
+Sep 2014 - May 2020
+
++ Owned and operated a Tier 1 XML document platform (~60TB) across two data centers, holding flight records and the auth data other systems depended on; carried 24/7/365 on-call alone for four years.
++ Resolved most off-hours incidents by tracing faults to their real source, often proving the problem lived in a client system rather than ours.
++ Built the runtime-configurable data layer behind an internal InfoSec risk-scoring system, a field model returning confidence scores on signals like IP, location, and domain.
 
 ### Code Connector - Volunteer
-April 2019 - Present
-+ Oversee community direction and efforts
-+ Support developers entering the field many from non-traditional backgrounds.
-+ Mentor through ongoing engagement related to both coding and professional advancement.
-+ Expose new languages, skills, and tools to people of all experience levels.
-+ Direct open source efforts for betterment of organization and members.
+Apr 2019 - Present
+
++ Co-designed and run The Coding Dojo, a guided mob-programming meetup for newer developers; maintain the shared solutions repo and led a Hacktoberfest push. Several participants credit the Dojo with the confidence that landed their first developer jobs.
++ Mentor developers at all levels on coding, career strategy, and advancement.
 
 ## Skills
 ### Languages
-Java/Springboot, JavaScript(Vue), SQL, Python(Django), Groovy, Bash
+Java, Spring Boot, JavaScript (Vue, Nuxt, Node), TypeScript, Python, SQL, Bash, Groovy
 
-### Deployments
-AWS (EC2, Elastic Beanstalk, Lambda, SQS, Cloud Search, API Gateway, RDS/MySql, and CloudWatch),  Pivotal Cloud Foundry, RedHat, Tomcat, Springboot, Oracle DB, Datastax/Cassandra NoSQL, JamStack, Android, Arduino
+### Cloud & Infrastructure
+AWS (Lambda, SQS, Aurora/RDS, Elastic Beanstalk, API Gateway, EC2, CloudWatch), Docker, Jenkins
 
-### DevOps
-Git, Gradle, NPM, Jenkins, Bamboo, TravisCI, Nexus
+### Databases
+Aurora MySQL, Oracle, SQL Server, Cassandra, Rocket UniVerse (Pick)
 
+### Practices
+Event-driven architecture (SQS/Lambda, JMS), REST, GraphQL, CI/CD, code-review ownership, AI-assisted development (Claude, JetBrains AI Assistant)
 
 ## Education
 ### University of Memphis
-#### B.S. in Computer Engineering - December 2013
+#### B.S. in Computer Engineering - 2013
 
-Hands on Study of software and hardware system design of analog and digital circuits, microprocessors, MIPS and Motorola 68HC11 assembly, Arduino, C, Java, Python, and MATLAB. Mathematics secondary included probability, statics, calculus, and differential equations.
+Hands-on study of software and hardware system design, from circuits and assembly up through the presentation layer, with math coursework in probability, statistics, calculus, and differential equations.
