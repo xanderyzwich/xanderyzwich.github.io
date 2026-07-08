@@ -471,8 +471,15 @@ footer a[href] {
   padding: 0;
   margin: 0;
 }
-a.tag {
+/* Tags live in their own wrapper (see postslist.njk) so the group
+   can take the full line while each tag chip keeps its own size. */
+.tag-group {
   order: 3;
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em 0.5em;
+  margin-top: 0.15em;
 }
 .tmpl-home .postlist-link {
   font-size: 1.1875em;
