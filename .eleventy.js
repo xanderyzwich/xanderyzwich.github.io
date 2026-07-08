@@ -37,6 +37,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addCollection("tagList", require("./_11ty/getTagList"));
 
+  // Used in the footer: {% year %}
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
   eleventyConfig.addPassthroughCopy("src/img");
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/favicon.ico");

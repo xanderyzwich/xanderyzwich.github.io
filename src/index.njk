@@ -4,19 +4,27 @@ tags:
   - home 
 ---
 
-<h1> <i class="fas fa-terminal" aria-hidden="true"></i> {{ metadata.author.name }} </h1>
+<div class="terminal-window">
+  <div class="terminal-window-bar">whoami.sh</div>
+  <div class="terminal-window-body">
+    <p class="line"><span class="prompt-mini">$</span> whoami</p>
+    <p class="output"><strong data-typewriter>{{ metadata.author.name }} — Staff Software Engineer</strong></p>
 
-<h2 class="terminal"> <i class="fas fa-terminal" aria-hidden="true"></i>Hello, World!</h2>
-<p>I've spent twelve years being the person a system can't run without, holding the whole thing in my head and building things so growth never requires tearing them down and starting over. Deep technical ownership and leadership have never felt like two different jobs to me.</p>
-<p>Outside of work, I'm married with kids who keep life full, and I spend what's left of my time on this site, side projects, and mentoring through Code Connector.</p>
+    <p class="line"><span class="prompt-mini">$</span> cat about.md</p>
+    <p class="output">I've spent twelve years being the person a system can't run without, holding the whole thing in my head and building things so growth never requires tearing them down and starting over. Deep technical ownership and leadership have never felt like two different jobs to me.</p>
+    <p class="output">Outside of work, I'm married with kids who keep life full, and I spend what's left of my time on this site, side projects, and mentoring through Code Connector.</p>
 
-<h1>Featured Publications</h1>
+    <p class="line"><span class="prompt-mini">$</span> <span class="cursor">▌</span></p>
+  </div>
+</div>
+
+<h1><i class="fas fa-terminal" aria-hidden="true"></i> Featured Publications</h1>
 <ul>
   <li><h2><a href="https://www.gitkraken.com/blog/nail-your-first-development-interview">How to Nail Your First Full Time Job Interview</a> (GitKraken Blog)</h2>
   <li><h2><a href="https://www.youtube.com/watch?v=RkCjN2zFcqs&t=6887s">A Rising Tide Lifts All Boats</a> (GitKon Talk)</h2>
 </ul>
 
-<h1>Latest 3 Posts</h1>
+<h1><i class="fas fa-terminal" aria-hidden="true"></i> Latest 3 Posts</h1>
 
 {% set postslist = collections.posts | head(-3) %}
 {% include "postslist.njk" %}

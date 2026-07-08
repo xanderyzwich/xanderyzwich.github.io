@@ -1,112 +1,111 @@
-/* div{ debugging
-	border: #F00;
-	border-width: thick;
-	border-style: solid;
-} */
-:root {
-  /* BLUES */
-	--university-blue:	#003087;
-	--rhythm-blue:		#1F3A60;
-	--spirit-blue:		#00ADE6;
-	--river-blue:		#D0E6E8;
-  --true-blue:		#3569A7;
-  /* GRAYS */
-  --made-up-gray:	#898D8D;
-  --patterson-gray:	#717C7D; /* do not use on white bg */
-  --highland-gray:	#BFCDCB;
-  
-  --bluff-beige:		#F5E9BD;
-  --font-bitter:		'Bitter'; /*serif*/
+/* Resume page: uses the shared tokens from index.css (already loaded
+   in <head> before this stylesheet). On screen it's styled to match
+   the terminal theme; @media print at the bottom forces clean
+   black-on-white output so it prints/PDFs well for recruiters. */
 
-  --made-up-gray: #555;
-  /* font-size: 75%; */
-  color: black;
-}
 #resume {
-  font-family: 'Montserrat';
+  font-family: var(--font-mono);
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.5em 1.75em;
+  color: var(--fg);
 }
-#resume *{
+#resume * {
   margin-top: 2px !important;
   margin-bottom: 0px !important;
   padding-right: 0px !important;
-  font-weight: bold;
 }
-#resume p{
-max-width: 100%;
-}
-
-/*BY TAG TYPE*/
-#resume h1, #resume h2{
- 	font-family: var(--font-bitter);
-}
-/* Color by Tag */
-#resume h1{
-  color: var(--black);
-}
-#resume h2{
-  color: var(--university-blue);
-}
-#resume h3{
-  color: var(--made-up-gray);
-}
-#resume h4{
-  color: var(--university-blue);
-}
-#resume h5{
-  color: var(--made-up-gray);
-}
-#resume h6{
-  color: var(--spirit-blue);
-}
-#resume p{
-  /* color: var(--rhythm-blue); */
-  color: black;
+#resume p {
+  max-width: 100%;
+  font-weight: 400;
 }
 
- /* Margins by tag */
-#resume h2{
-   margin: 1% 0 0 2% !important;
+/* BY TAG TYPE */
+#resume h1,
+#resume h2 {
+  font-weight: 700;
 }
-#resume h3{
- 	margin: 0 0 0 3% !important;
+#resume h1 {
+  color: var(--amber);
 }
-#resume h4{
+#resume h2 {
+  color: var(--amber);
+}
+#resume h3 {
+  color: var(--cyan);
+  font-weight: 600;
+}
+#resume h4 {
+  color: var(--fg);
+}
+#resume h5 {
+  color: var(--muted);
+}
+#resume h6 {
+  color: var(--muted);
+}
+#resume p {
+  color: var(--fg);
+}
+
+/* Margins by tag */
+#resume h2 {
+  margin: 1.4em 0 0.2em !important;
+}
+#resume h3 {
+  margin: 0.9em 0 0 3% !important;
+}
+#resume h4 {
   margin: 0 0 0 4% !important;
 }
-#resume h5{
+#resume h5 {
   margin: 0 0 0 5% !important;
 }
-#resume h6{
+#resume h6 {
   margin: 0 0 0 6% !important;
 }
 #resume p,
-#resume ul{
-  margin: 0 0 0 7%;
+#resume ul {
+  margin: 0.2em 0 0.6em 5% !important;
 }
-#resume li{
-  margin: 0;
+#resume li {
+  margin: 0 0 0.3em !important;
   padding: 0;
-  color: var(--rhythm-blue)
+  color: var(--fg);
 }
 
-
-/* Making the Contact Info Align with Name */
+/* Contact icon next to the name */
 #title i {
   font-size: 1rem;
-  color: var(--true-blue);
+  color: var(--cyan);
 }
 
-/* #title {
-  width: 100%;
-  display: flex;
-} */
-/* h1{
-  flex-direction: row;
-  float: left;
+/* Print / PDF: force clean black-on-white regardless of the on-screen
+   dark theme. Recruiters print this — no one wants to burn ink on an
+   amber terminal background. */
+@media print {
+  #resume {
+    background: #fff !important;
+    border: none !important;
+    color: #000 !important;
+    padding: 0 !important;
+  }
+  #resume h1,
+  #resume h2,
+  #resume h4 {
+    color: #003087 !important;
+  }
+  #resume h3,
+  #resume h5,
+  #resume h6 {
+    color: #333 !important;
+  }
+  #resume p,
+  #resume li {
+    color: #000 !important;
+  }
+  #title i {
+    color: #003087 !important;
+  }
 }
-.contact {
-  flex-direction: row;
-  font-family:  "Font Awesome 5 Pro" !important;
-  float: right;
-  margin-top: 0;
-} */
