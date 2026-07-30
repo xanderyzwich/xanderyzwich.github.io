@@ -12,8 +12,16 @@ Staff-level engineer with twelve years owning production systems a business can'
 
 ##  Experience
 
+### Principal Technical Consultant - Self-Employed
+Aug 2026 - Present
+
++ Oversee and recommend architectural and platform decisions to promote ongoing sustainability.
++ Integrate information from various systems and companies into a shared platform.
++ Ensure understanding of legacy systems and mitigate unknowns within technical strategies.
++ Minimize impact to production systems amid rapid growth efforts.
+
 ### Lead Developer - Summit Professional Education
-Dec 2021 - Present
+Dec 2021 - Aug 2026
 
 *Senior-most engineer and technical owner for a platform serving 528K accounts and 3.5M+ enrollments (Staff Engineer / Engineering Lead scope).*
 
@@ -56,10 +64,10 @@ Java, Spring Boot, JavaScript (Vue, Nuxt, Node), TypeScript, Python, SQL, Bash, 
 AWS (Lambda, SQS, Aurora/RDS, Elastic Beanstalk, API Gateway, EC2, CloudWatch), Docker, Jenkins
 
 ### Databases
-Aurora MySQL, Oracle, SQL Server, Cassandra, Rocket UniVerse (Pick)
+Aurora MySQL, Oracle, SQL Server, Rocket UniVerse (Pick)
 
 ### Practices
-Event-driven architecture (SQS/Lambda, JMS), REST, GraphQL, CI/CD, code-review ownership, AI-assisted development (Claude, JetBrains AI Assistant)
+Event-driven architecture (SQS/Lambda, JMS), REST, CI/CD, code-review ownership, AI-assisted development (Claude, JetBrains AI Assistant)
 
 ## Education
 ### University of Memphis
