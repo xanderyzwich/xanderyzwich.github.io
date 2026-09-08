@@ -8,7 +8,7 @@ navtitle: Resume
 templateClass: tmpl-resume
 ---
 
-**Staff / Principal Software Engineer**
+**Software Engineer**
 *Technical Direction | Distributed Data Infrastructure | Legacy Modernization*
 
 Twelve years setting technical direction from inside the code, usually as the person a platform can't run without. I carry a working model of the whole system, which is how I spot where a change will break something three steps away, and I write that knowledge down so it stops depending on me. My depth is in distributed data infrastructure, AWS, and legacy modernization. I own critical production systems and grow the engineers around me.
@@ -20,7 +20,7 @@ Twelve years setting technical direction from inside the code, usually as the pe
 ### Lead Developer - Summit Professional Education
 Dec 2021 - Present
 
-*Senior-most engineer and technical owner for a platform serving 528K accounts, 3.5M+ enrollments, and ~20K monthly active professionals across all 50 states. Full-time through Aug 2026, retained since as an independent architecture advisor on in-flight platform and billing migrations. (Staff Engineer / Engineering Lead scope)*
+*Senior-most engineer and technical owner for a platform serving 528K accounts, 3.5M+ enrollments, and ~20K monthly active professionals across all 50 states. Full-time through Aug 2026, retained since as an independent architecture advisor on in-flight platform and billing migrations.*
 
 + Set direction to retire a legacy Universe/Pick data-entry system by building its replacement Vue 3-native on the next-generation ops platform, turning a framework migration the board wouldn't fund into a side effect of new feature work.
 + Cut a customer-facing B2B account page from ~10 minutes to under a minute with a relation-table redesign; the sales team had refused to demo it and now uses it live to close contracts.
@@ -70,7 +70,7 @@ AWS (Lambda, SQS, Aurora/RDS, Elastic Beanstalk, API Gateway, EC2, CloudWatch), 
 Aurora MySQL, Oracle, SQL Server, Rocket UniVerse (Pick)
 
 ### Practices
-Event-driven architecture (SQS/Lambda, JMS), REST, CI/CD, code-review ownership, AI-assisted development (Claude, JetBrains AI Assistant)
+Event-driven architecture (SQS/Lambda, JMS), REST, CI/CD, code-review ownership, Caching, AI-assisted development (Claude, JetBrains AI Assistant)
 
 ## Education
 ### University of Memphis
