@@ -21,6 +21,7 @@ Dec 2021 – Present
 
 + Understands complex systems deeply enough to steer projects around broken assumptions and prevent expensive rework.
 + Remodeled data to drop page loads from over 10 minutes to under 1, so the sales team now demos it for customers.
++ Turned a one-line directive to switch marketing platforms into an actual specification, cutting a weekly per-user export from 115 fields to 24.
 + Owned the subscription flow from a SaaS platform through webhooks into a near-real-time access-grant cache fed by 60K+ annual paid invoices.
 + Recovered revenue from a week of failed payment processing by scripting batch retry and overcoming a broken vendor library.
 + Orchestrated business-critical data and event processing pipelines through 140+ AWS Lambdas and SQS messaging at near-100% measured availability.
@@ -29,8 +30,10 @@ Dec 2021 – Present
 + Recovered organic search from ~30th to a consistent top 10 after an SSR regression, directing a specialist's fixes across ~300 server errors and 600+ Core Web Vitals issues.
 + Executed Vue 2→3 upgrade and UniVerse system retirement, one feature at a time, without additional funding.
 + Built a structured context system the team's AI assistants read, moving cross-system knowledge out of my head and into the repo.
++ Wrote the architecture and frontend standards the team's AI tools and engineers build against, after years of enforcing them only in review.
 + Walked an engineer through a nine-month Vue 2 to 3 migration by asking questions instead of answering them.
 + Mentored a bootcamp-trained developer into a full-stack engineer who owns website direction and decides what ships in each release.
++ Translate system realities into decisions a non-technical CTO can act on, holding the technical half of that partnership.
 + Split ownership of projects, applications, and release planning among three engineers while providing a safety net through every code review.
 
 ### Software Engineer - Juice Plus
