@@ -17,7 +17,7 @@ templateClass: tmpl-resume
 ### Lead Developer - Summit Professional Education
 Dec 2021 – Present
 
-*Senior-most engineer for a platform serving 528K accounts and 3.5M+ enrollments across all 50 states. Full-time through Aug 2026, retained since as an independent architecture advisor.*
+*Senior-most engineer for a platform serving 533K accounts and 3.5M+ enrollments across all 50 states. Full-time through Aug 2026, retained since as an independent architecture advisor.*
 
 + Understands complex systems deeply enough to steer projects around broken assumptions and prevent expensive rework.
 + Remodeled data to drop page loads from over 10 minutes to under 1, so the sales team now demos it for customers.
@@ -28,8 +28,8 @@ Dec 2021 – Present
 + Implemented new AWS Personalize, AWS CloudSearch, and Pipedrive integrations, and maintained and evolved the platform's broader integration surface spanning Recurly, Iterable, ON24, HubSpot, and Podbean.
 + Recovered organic search from ~30th to a consistent top 10 after an SSR regression, directing a specialist's fixes across ~300 server errors and 600+ Core Web Vitals issues.
 + Executed Vue 2→3 upgrade and UniVerse system retirement, one feature at a time, without additional funding.
-+ Championed AI-assisted development from zero, bringing JetBrains AI Assistant to every engineer, then decomposed a CTO's single-file prototype into an on-demand skill system with per-developer profiles, a PR-review workflow, and a repository wiring map, so cross-system knowledge lives in the repo.
-+ Coached engineers through migrations they wouldn't attempt alone, including a nine-month Vue 2 to Vue 3 migration where I asked questions and let the engineer make the architectural calls.
++ Built a structured context system the team's AI assistants read, moving cross-system knowledge out of my head and into the repo.
++ Walked an engineer through a nine-month Vue 2 to 3 migration by asking questions instead of answering them.
 + Mentored a bootcamp-trained developer into a full-stack engineer who owns website direction and decides what ships in each release.
 + Split ownership of projects, applications, and release planning among three engineers while providing a safety net through every code review.
 
@@ -50,16 +50,16 @@ Sep 2014 – May 2020
 ## Skills
 
 ### Languages & Frameworks
-Java, Spring Boot, JavaScript (Vue, Nuxt, Node), TypeScript, Python, SQL, Bash
+Java, Spring Boot, JPA / Hibernate, JavaScript (Vue, Nuxt, Node), TypeScript, Python, SQL, Bash
 
 ### Cloud & Infra
-AWS (Lambda, SQS, Elastic Beanstalk, CloudWatch), Docker, Jenkins
+AWS (Lambda, SQS, Elastic Beanstalk, CloudWatch), Docker, Jenkins, GitHub Actions
 
 ### Databases
 Aurora MySQL, Oracle, SQL Server, Rocket UniVerse (Pick)
 
 ### Practices
-Event-driven, REST, CI/CD, Caching, AI-assisted development (Claude, JetBrains AI Assistant)
+Microservices, Event-driven, REST, CI/CD, Caching, AI-assisted development (Claude, JetBrains AI Assistant)
 
 ## Community & Talks
 
