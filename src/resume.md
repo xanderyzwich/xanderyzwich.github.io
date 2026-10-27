@@ -14,7 +14,7 @@ templateClass: tmpl-resume
 
 ## Experience
 
-### Lead Developer - Summit Professional Education
+### Development Manager - Summit Professional Education
 Dec 2021 – Present
 
 *Senior-most engineer for a platform serving 533K accounts and 3.5M+ enrollments across all 50 states. Full-time through Aug 2026, retained since as an independent architecture advisor.*
